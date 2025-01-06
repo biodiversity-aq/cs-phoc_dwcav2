@@ -32,7 +32,7 @@
     "href": "index.html#write-files",
     "title": "Mapping population census dataset to DwCA v2",
     "section": "Write files",
-    "text": "Write files\n\nwrite_tsv(event, here(\"output\", \"event.txt\"))\nwrite_tsv(survey, here(\"output\", \"survey.txt\"))\nwrite_tsv(survey_target, here(\"output\", \"survey_target.txt\"))\nwrite_tsv(survey_target_abd, here(\"output\", \"survey_target_abundance.txt\"))\nwrite_tsv(protocol, here(\"output\", \"protocol.txt\"))"
+    "text": "Write files\n\nwrite_tsv(event, here(\"output\", \"event.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(survey, here(\"output\", \"survey.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(survey_target, here(\"output\", \"survey_target.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(survey_target_abd, here(\"output\", \"survey_target_abundance.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(protocol, here(\"output\", \"protocol.txt\"), na = \"\", quote = \"none\")"
   },
   {
     "objectID": "index.html#citation",

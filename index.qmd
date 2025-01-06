@@ -170,11 +170,11 @@ protocol <- rbind(census_protocol, data_protocol)
 
 ```{r write files}
 
-write_tsv(event, here("output", "event.txt"))
-write_tsv(survey, here("output", "survey.txt"))
-write_tsv(survey_target, here("output", "survey_target.txt"))
-write_tsv(survey_target_abd, here("output", "survey_target_abundance.txt"))
-write_tsv(protocol, here("output", "protocol.txt"))
+write_tsv(event, here("output", "event.txt"), na = "", quote = "none")
+write_tsv(survey, here("output", "survey.txt"), na = "", quote = "none")
+write_tsv(survey_target, here("output", "survey_target.txt"), na = "", quote = "none")
+write_tsv(survey_target_abd, here("output", "survey_target_abundance.txt"), na = "", quote = "none")
+write_tsv(protocol, here("output", "protocol.txt"), na = "", quote = "none")
 ```
 
 ## Citation
