@@ -241,11 +241,11 @@ Dataset is available as Darwin Core Archive at <a href="https://ipt-obis.gbif.us
 </section>
 <section id="survey-target-table" class="level3">
 <h3 class="anchored" data-anchor-id="survey-target-table">Survey-target table</h3>
-<p>From the paper:</p>
+<p>From paper:</p>
 <blockquote class="blockquote">
 <p>Biologists used field notebooks to record counts of each phocid species at each location, along with age class and sex when possible.</p>
 </blockquote>
-<p>Should sex and lifeStage be part of survey target? It is not always possible to record the sex and lifeStage. Is <code>unknown</code> a valid value?</p>
+<p>Should <code>sex</code> and <code>lifeStage</code> be part of survey target? It is not always possible to record these values. Is <code>unknown</code> a valid value?</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>survey_target_taxa <span class="ot">&lt;-</span> occ <span class="sc">%&gt;%</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(scientificName) <span class="sc">%&gt;%</span></span>
