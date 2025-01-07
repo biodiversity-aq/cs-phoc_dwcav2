@@ -19,7 +19,7 @@ This repository is used to manage data transformation script and output for mapp
 
 ## Getting started
 
-This project uses \[renv\](<https://rstudio.github.io/renv/>) to manage the dependencies in a virtual environment. Please try the following command to load the dependencies:
+This project uses [renv](<https://rstudio.github.io/renv/>) to manage the dependencies in a virtual environment. Please try the following command to load the dependencies:
 
 ```{r}
 renv::restore()
