@@ -138,28 +138,6 @@
     ]
   },
   {
-    "objectID": "explore-dwcav2.html#connect-to-a-postgresql-database",
-    "href": "explore-dwcav2.html#connect-to-a-postgresql-database",
-    "title": "Exploring DwCA v2",
-    "section": "",
-    "text": "A local psql database was created based on the schema. Credentials are stored locally using .Renviron as explained in this Posit solutions page.\n\nlibrary(DBI)\n\n# Get PostgreSQL configuration from environment variables\ndbname &lt;- Sys.getenv(\"POSTGRES_DBNAME\")\nhost &lt;- Sys.getenv(\"POSTGRES_HOST\")\nport &lt;- as.integer(Sys.getenv(\"POSTGRES_PORT\"))\nuser &lt;- Sys.getenv(\"POSTGRES_USER\")\npassword &lt;- Sys.getenv(\"POSTGRES_PASSWORD\")\n\n# Connect to PostgreSQL\ncon &lt;- dbConnect(\n  RPostgres::Postgres(),\n  dbname = dbname,\n  host = host,\n  port = port,\n  user = user,\n  password = password\n)",
-    "crumbs": [
-      "Home",
-      "Explore DwCA_v2"
-    ]
-  },
-  {
-    "objectID": "explore-dwcav2.html#import-data",
-    "href": "explore-dwcav2.html#import-data",
-    "title": "Exploring DwCA v2",
-    "section": "Import data",
-    "text": "Import data\nThe column names in psql are in snake_case but the corresponding column names in the R data frames are in lowerCamelCase. In order to transform the column names into snake_case to make importing easier, we will use the snakecase library.\n# library(snakecase)\n# \n# write_to_db &lt;- function(conn, df, table_name) {\n#   # Convert column names to snake_case\n#   colnames(df) &lt;- to_snake_case(colnames(df))\n#   \n#   # Get the list of columns from the PostgreSQL table\n#   db_columns &lt;- dbListFields(conn, table_name)\n#   \n#   # Filter the data frame to include only matching columns\n#   df_filtered &lt;- df[, colnames(df) %in% db_columns, drop = FALSE]\n#   \n#   # Write the filtered data frame to the PostgreSQL table\n#   dbWriteTable(\n#     conn = conn,\n#     name = table_name,\n#     value = df_filtered,\n#     append = TRUE,\n#     row.names = FALSE\n#   )\n#   \n#   message(\"Data successfully written to table: \", table_name)\n# }\n# \n# write_to_db(con, event, \"event\")\n# write_to_db(con, survey, \"survey\")\n# write_to_db(con, survey_target, \"survey_target\")\n# write_to_db(con, survey_target_abd_presence_only, \"survey_target_abundance\")\nunable to import protocol because\nERROR: duplicate key value violates unique constraint “protocol_pkey”\nDETAIL: Key (protocol_id)=(CS-PHOC-Census) already exists.\nCONTEXT: COPY protocol, line 2\n\n# # Define the query to fetch the required data\n# sql_query &lt;- \"\n# SELECT st.survey_id, st.survey_target_value, st.survey_target_id\n# FROM survey_target st\n# LEFT JOIN survey_target_abundance sta\n#   ON st.survey_target_id = sta.survey_target_id\n# WHERE sta.observed_taxon IS NULL\n# ORDER BY st.survey_id;\n# \n# \"\n# \n# # Execute the query and store the results in a data frame\n# result &lt;- dbGetQuery(con, query)\n# \n# # View the result\n# print(result)",
-    "crumbs": [
-      "Home",
-      "Explore DwCA_v2"
-    ]
-  },
-  {
     "objectID": "explore-dwcav2.html#load-data-frame",
     "href": "explore-dwcav2.html#load-data-frame",
     "title": "Exploring DwCA v2",
