@@ -19,7 +19,7 @@ This repository is used to manage data transformation script and output for mapp
 
 ## Getting started
 
-This project uses [renv](<https://rstudio.github.io/renv/>) to manage the dependencies in a virtual environment. Please try the following command to load the dependencies:
+This project uses [renv](https://rstudio.github.io/renv/) to manage the dependencies in a virtual environment. Please try the following command to load the dependencies:
 
 ```{r}
 renv::restore()
@@ -35,8 +35,4 @@ This work is part of the ADVANCE project funded by BELSPO (BELSPO project RT/23/
 
 The dataset used for this exercise:
 
-Woodman S M, Borras-Chavez R, Goebel M E, Torres D, Aguayo A, Krause D J
-(2024). CS-PHOC: weekly census counts of Southern Ocean phocids at Cape
-Shirreff, Livingston Island. Version 2.2. SCAR - AntOBIS. Samplingevent
-dataset. https://doi.org/10.48361/gklk1u accessed via GBIF.org on
-2025-01-07.
+Woodman S M, Borras-Chavez R, Goebel M E, Torres D, Aguayo A, Krause D J (2024). CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. Version 2.2. SCAR - AntOBIS. Samplingevent dataset. https://doi.org/10.48361/gklk1u accessed via GBIF.org on 2025-01-07.

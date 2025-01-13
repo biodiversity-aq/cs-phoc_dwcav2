@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
+website:
+  title: "cs-phoc_dwcav2"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - icon: github
+        href: https://github.com/ymgan/cs-phoc_dwcav2
+  page-navigation: true
+  sidebar: 
+    style: "docked"
+    contents: 
+      - href: generate-dwcav2.qmd
+        text: Generate tables for DwCA_v2
+      - href: explore-dwcav2.qmd
+        text: Explore DwCA_v2
+
+
+

@@ -1,0 +1,30 @@
+---
+title: "Exploring DwCA v2"
+date: today
+author:
+  - name: "Yi-Ming Gan"
+    orcid: "0000-0001-7087-2646"
+    email: "ymgan@naturalsciences.be"
+---
+
+## Load data frame
+
+```{r load rda}
+#| warning: false
+#| message: false
+library(here)
+library(tidyverse)
+
+load(here("output", "rda", "event.rda"))
+load(here("output", "rda", "survey.rda"))
+load(here("output", "rda", "survey_target.rda"))
+load(here("output", "rda", "survey_target_abundance.rda"))
+```
+
+## Non-detection data
+
+If only presence data is provided (not the case for this dataset), can we infer non-detection based on survey-target table and survey-target-abundance table?
+
+```{r}
+
+```

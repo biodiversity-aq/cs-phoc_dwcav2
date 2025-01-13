@@ -1,0 +1,32 @@
+---
+title: "Exploring DwCA_v2 with marine census dataset"
+date: today
+author:
+  - name: "Yi-Ming Gan"
+    orcid: "0000-0001-7087-2646"
+    email: "ymgan@naturalsciences.be"
+---
+
+## Introduction
+
+This is an attempt to map CS-PHOC dataset as a Survey use case of the [new data model](https://www.gbif.org/composition/HjlTr705BctcnaZkcjRJq/gbif-new-data-model) to DwCAv2 and explore what information can be retrieve from DwCAv2.
+
+## Acknowledgement
+
+This mapping exercise is part of ADVANCE project that is funded by BELSPO (BELSPO project RT/23/ADVANCE).
+
+We are grateful and appreciate the various contributions received from the following contributors during this exercise:
+
+-   John Wieczorek
+
+-   Anton Van de Putte
+
+-   Cecilie Svenningsen
+
+-   Kate Ingenloff
+
+-   Tim Robertson
+
+## References
+
+Woodman, S.M., Borras-Chavez, R., Goebel, M.E., Torres, D., Aguayo, A., Krause, D.J. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. *Sci Data* 11, 895 (2024). <https://doi.org/10.1038/s41597-024-03744-9>

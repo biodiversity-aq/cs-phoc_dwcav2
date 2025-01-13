@@ -1,0 +1,197 @@
+---
+title: "Mapping census dataset to DwCA v2"
+date: today
+author:
+  - name: "Yi-Ming Gan"
+    orcid: "0000-0001-7087-2646"
+    email: "ymgan@naturalsciences.be"
+---
+
+## Introduction
+
+This is an attempt to map CS-PHOC dataset as a Survey use case of the [new data model](https://www.gbif.org/composition/HjlTr705BctcnaZkcjRJq/gbif-new-data-model) to DwCAv2.
+
+## Dataset
+
+CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island
+
+\- Dataset is available as Darwin Core Archive at <https://ipt-obis.gbif.us/resource?r=usamlr_cs-phoc> - Associated data paper that describes the population census of phocids: <https://doi.org/10.1038/s41597-024-03744-9>
+
+## Load libraries
+
+```{r load library}
+#| warning: false
+#| message: false
+library(here)
+library(tidyverse)
+```
+
+## Read files
+
+The files are read directly from the GitHub repository that was used to transform the dataset into Darwin Core compliant tables <https://github.com/us-amlr/cs-phoc/>
+
+```{r read files}
+#| warning: false
+
+event_dwc <- read_delim("https://raw.githubusercontent.com/us-amlr/cs-phoc/refs/heads/main/data/dwca/event.txt", delim = "\t", show_col_types = FALSE)
+occ <- read_delim("https://raw.githubusercontent.com/us-amlr/cs-phoc/refs/heads/main/data/dwca/occurrence.txt", delim = "\t", show_col_types = FALSE)
+```
+
+## Schema of DwCA v2
+
+The mapping is based on schema from <https://rs.gbif.org/sandbox/experimental/data-packages/dwca_v2/0.1/>
+
+### Event table
+
+```{r event}
+event <- event_dwc %>%
+  mutate(
+    eventClass = "Survey",
+    eventType = "Survey", 
+    eventProtocolID = "https://doi.org/10.1038/s41597-024-03744-9" 
+  ) 
+```
+
+### Survey table
+
+Extend each Event with Survey information.
+
+```{r survey}
+survey <- event %>%
+  select(eventID, sampleSizeValue, sampleSizeUnit, dynamicProperties) %>%
+  rename(
+    surveyID = eventID,
+    eventDurationValue = sampleSizeValue,
+    eventDurationUnit = sampleSizeUnit
+  ) %>%
+  mutate(
+    taxonCompletenessReported = "notReported", 
+    isTaxonomicScopeFullyReported = "true", 
+    #  Phocids were only recorded if they were hauled out on land, and not if they were for instance on an ice flow or swimming just offshore.
+    targetHabitatScope = "phocids hauled-out location on land",
+    excludedTargetHabitatScope = "ice, offshore, water",
+    isAbsenceReported = "true", 
+    hasNonTargetTaxa = "false",
+    isAbundanceReported = "true",
+    isLeastSpecificTargetCategoryQuantityInclusive = "false", 
+    hasMaterialSamples = "false",
+    samplingEffortProtocolID = "https://doi.org/10.1038/s41597-024-03744-9",
+    samplingPerformedBy = case_when(
+      str_detect(dynamicProperties, "INACH") ~ "INACH",
+      str_detect(dynamicProperties, "USAMLR") ~ "USAMLR",
+      TRUE ~ NA_character_  # Default for unmatched cases
+    )
+  ) 
+```
+
+### Survey-target table
+
+From paper:
+
+> Biologists used field notebooks to record counts of each phocid species at each location, along with age class and sex when possible.
+
+`sex` and `lifeStage` are added to survey target.
+
+```{r survey-target}
+survey_target_taxa <- occ %>%
+  select(occurrenceID, scientificName, scientificNameID) %>%
+  rename(
+    surveyTargetID = occurrenceID,
+    surveyTargetValue = scientificName,
+    surveyTargetValueID = scientificNameID
+    ) %>%
+  mutate(
+    surveyTargetType = "taxon",
+    includeOrExclude = "Include"
+    )
+
+
+survey_target_lifestage <- occ %>%
+  select(occurrenceID, sex, lifeStage) %>%
+  rename(surveyTargetID = occurrenceID) %>%
+  pivot_longer(
+    cols = c(sex, lifeStage),
+    names_to = "surveyTargetType", 
+    values_to = "surveyTargetValue",
+    names_repair = "minimal"
+  ) %>%
+  mutate(
+    includeOrExclude = "Include",
+    surveyTargetValueID = case_when(
+      surveyTargetType == "sex" & surveyTargetValue == "female" ~ "http://vocab.nerc.ac.uk/collection/S10/current/S105/",
+      surveyTargetType == "sex" & surveyTargetValue == "male" ~ "http://vocab.nerc.ac.uk/collection/S10/current/S103/",
+      surveyTargetType == "sex" & surveyTargetValue == "indeterminate" ~ "http://vocab.nerc.ac.uk/collection/S10/current/S105/",
+      surveyTargetType == "lifeStage" & surveyTargetValue == "pup" ~ "http://vocab.nerc.ac.uk/collection/S11/current/S1157/",
+      surveyTargetType == "lifeStage" & surveyTargetValue == "juvenile" ~ "http://vocab.nerc.ac.uk/collection/S11/current/S1127/",
+      surveyTargetType == "lifeStage" & surveyTargetValue == "adult" ~ "http://vocab.nerc.ac.uk/collection/S11/current/S1116/",
+      surveyTargetType == "lifeStage" & surveyTargetValue == "unknown" ~ "http://vocab.nerc.ac.uk/collection/S11/current/S1152/",
+      TRUE ~ NA_character_  # Handles cases where no match is found
+    )
+    ) 
+
+survey_target <- rbind(survey_target_taxa, survey_target_lifestage)
+```
+
+### Survey-target-abundance table
+
+```{r survey-target-abundance}
+survey_target_abd <- occ %>%
+  select(occurrenceID, scientificName, scientificNameID, individualCount, sex, lifeStage) %>%
+  rename(
+    observedTaxon = scientificName,
+    observedTaxonID = scientificNameID,
+    organismQuantity = individualCount,
+    surveyTargetID = occurrenceID
+    ) %>%
+  mutate(
+    organismQuantityType = case_when(
+      organismQuantity <= 1 ~ "individual",
+      organismQuantity > 1 ~ "individuals"
+    )
+  )
+```
+
+### Protocol table
+
+```{r protocol}
+protocol <- tibble(
+    protocolID = "https://doi.org/10.1038/s41597-024-03744-9",
+    protocolType = "census",
+    protocolName = "CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island",
+    protocolDescription = "The Cape Shirreff Phocid Census (CS-PHOC, pronounced ‘Seasfolk’) surveys were conducted by INACH from 1997/98 to 2006/07. The U.S. AMLR Program resumed these surveys in 2009/10, and, except for 2020/21 when the field season was cancelled due to the COVID-19 pandemic, have continued surveys every season since through the time of publication. Most CS-PHOC survey windows (i.e., censuses) were only one day, meaning surveys of all locations were conducted on the same day. However, censuses occasionally spanned two or three days due to extenuating circumstances (e.g., weather). The INACH and U.S. AMLR programs both followed the same overall census protocol, where trained field biologists surveyed safely accessible regions of Cape Shirreff and recorded all live phocids. Biologists used field notebooks to record counts of each phocid species at each location, along with age class and sex when possible. Phocids were only recorded if they were hauled out on land, and not if they were for instance on an ice flow or swimming just offshore. After the survey, data were entered into a database or otherwise archived. Locations were surveyed on foot, by either walking through haul-out locations or using binoculars from a high vantage point where practical. While the full extent of the area surveyed varied slightly both across and within seasons, core census locations were always surveyed. These core census locations span the vast majority of phocid haul-out locations at Cape Shirreff, thereby ensuring that CS-PHOC data are both consistent and representative of phocid haul-out at Cape Shirreff across all censuses and seasons.",
+    protocolCitation = "Woodman, S.M., Borras-Chavez, R., Goebel, M.E. et al. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. Sci Data 11, 895 (2024). https://doi.org/10.1038/s41597-024-03744-9"
+  )
+```
+
+## Save data frames as rda
+
+```{r save rda}
+# Helper function to create file paths for rda
+rda_file_path <- function(filename) {
+  file.path(here("output", "rda"), filename)
+}
+save(event, file = rda_file_path("event.rda"))
+save(survey, file = rda_file_path("survey.rda"))
+save(survey_target, file = rda_file_path("survey_target.rda"))
+save(survey_target_abd, file = rda_file_path("survey_target_abundance.rda"))
+save(protocol, file = rda_file_path("protocol.rda"))
+```
+
+## Write files
+
+```{r write files}
+# Helper function to create file paths for tsv files
+tsv_file_path <- function(filename) {
+  file.path(here("output", "tsv"), filename)
+}
+
+write_tsv(event, tsv_file_path("event.txt"), na = "", quote = "none")
+write_tsv(survey, tsv_file_path("survey.txt"), na = "", quote = "none")
+write_tsv(survey_target, tsv_file_path("survey_target.txt"), na = "", quote = "none")
+write_tsv(survey_target_abd, tsv_file_path("survey_target_abundance.txt"), na = "", quote = "none")
+write_tsv(protocol, tsv_file_path("protocol.txt"), na = "", quote = "none")
+```
+
+## References
+
+Woodman, S.M., Borras-Chavez, R., Goebel, M.E., Torres, D., Aguayo, A., Krause, D.J. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. *Sci Data* 11, 895 (2024). <https://doi.org/10.1038/s41597-024-03744-9>

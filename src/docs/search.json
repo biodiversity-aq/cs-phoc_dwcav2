@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Exploring DwCA_v2 with marine census dataset",
+    "section": "",
+    "text": "This is an attempt to map CS-PHOC dataset as a Survey use case of the new data model to DwCAv2 and explore what information can be retrieve from DwCAv2."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Exploring DwCA_v2 with marine census dataset",
+    "section": "",
+    "text": "This is an attempt to map CS-PHOC dataset as a Survey use case of the new data model to DwCAv2 and explore what information can be retrieve from DwCAv2."
+  },
+  {
+    "objectID": "index.html#acknowledgement",
+    "href": "index.html#acknowledgement",
+    "title": "Exploring DwCA_v2 with marine census dataset",
+    "section": "Acknowledgement",
+    "text": "Acknowledgement\nThis mapping exercise is part of ADVANCE project that is funded by BELSPO (BELSPO project RT/23/ADVANCE).\nWe are grateful and appreciate the various contributions received from the following contributors during this exercise:\n\nJohn Wieczorek\nAnton Van de Putte\nCecilie Svenningsen\nKate Ingenloff\nTim Robertson"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Exploring DwCA_v2 with marine census dataset",
+    "section": "References",
+    "text": "References\nWoodman, S.M., Borras-Chavez, R., Goebel, M.E., Torres, D., Aguayo, A., Krause, D.J. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. Sci Data 11, 895 (2024). https://doi.org/10.1038/s41597-024-03744-9"
+  },
+  {
+    "objectID": "generate-dwcav2.html",
+    "href": "generate-dwcav2.html",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "",
+    "text": "This is an attempt to map CS-PHOC dataset as a Survey use case of the new data model to DwCAv2.",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#introduction",
+    "href": "generate-dwcav2.html#introduction",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "",
+    "text": "This is an attempt to map CS-PHOC dataset as a Survey use case of the new data model to DwCAv2.",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#dataset",
+    "href": "generate-dwcav2.html#dataset",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "Dataset",
+    "text": "Dataset\nCS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island\n- Dataset is available as Darwin Core Archive at https://ipt-obis.gbif.us/resource?r=usamlr_cs-phoc - Associated data paper that describes the population census of phocids: https://doi.org/10.1038/s41597-024-03744-9",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#load-libraries",
+    "href": "generate-dwcav2.html#load-libraries",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "Load libraries",
+    "text": "Load libraries\n\nlibrary(here)\nlibrary(tidyverse)",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#read-files",
+    "href": "generate-dwcav2.html#read-files",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "Read files",
+    "text": "Read files\nThe files are read directly from the GitHub repository that was used to transform the dataset into Darwin Core compliant tables https://github.com/us-amlr/cs-phoc/\n\nevent_dwc &lt;- read_delim(\"https://raw.githubusercontent.com/us-amlr/cs-phoc/refs/heads/main/data/dwca/event.txt\", delim = \"\\t\", show_col_types = FALSE)\nocc &lt;- read_delim(\"https://raw.githubusercontent.com/us-amlr/cs-phoc/refs/heads/main/data/dwca/occurrence.txt\", delim = \"\\t\", show_col_types = FALSE)",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#schema-of-dwca-v2",
+    "href": "generate-dwcav2.html#schema-of-dwca-v2",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "Schema of DwCA v2",
+    "text": "Schema of DwCA v2\nThe mapping is based on schema from https://rs.gbif.org/sandbox/experimental/data-packages/dwca_v2/0.1/\n\nEvent table\n\nevent &lt;- event_dwc %&gt;%\n  mutate(\n    eventClass = \"Survey\",\n    eventType = \"Survey\", \n    eventProtocolID = \"https://doi.org/10.1038/s41597-024-03744-9\" \n  ) \n\n\n\nSurvey table\nExtend each Event with Survey information.\n\nsurvey &lt;- event %&gt;%\n  select(eventID, sampleSizeValue, sampleSizeUnit, dynamicProperties) %&gt;%\n  rename(\n    surveyID = eventID,\n    eventDurationValue = sampleSizeValue,\n    eventDurationUnit = sampleSizeUnit\n  ) %&gt;%\n  mutate(\n    taxonCompletenessReported = \"notReported\", \n    isTaxonomicScopeFullyReported = \"true\", \n    #  Phocids were only recorded if they were hauled out on land, and not if they were for instance on an ice flow or swimming just offshore.\n    targetHabitatScope = \"phocids hauled-out location on land\",\n    excludedTargetHabitatScope = \"ice, offshore, water\",\n    isAbsenceReported = \"true\", \n    hasNonTargetTaxa = \"false\",\n    isAbundanceReported = \"true\",\n    isLeastSpecificTargetCategoryQuantityInclusive = \"false\", \n    hasMaterialSamples = \"false\",\n    samplingEffortProtocolID = \"https://doi.org/10.1038/s41597-024-03744-9\",\n    samplingPerformedBy = case_when(\n      str_detect(dynamicProperties, \"INACH\") ~ \"INACH\",\n      str_detect(dynamicProperties, \"USAMLR\") ~ \"USAMLR\",\n      TRUE ~ NA_character_  # Default for unmatched cases\n    )\n  ) \n\n\n\nSurvey-target table\nFrom paper:\n\nBiologists used field notebooks to record counts of each phocid species at each location, along with age class and sex when possible.\n\nsex and lifeStage are added to survey target.\n\nsurvey_target_taxa &lt;- occ %&gt;%\n  select(occurrenceID, scientificName, scientificNameID) %&gt;%\n  rename(\n    surveyTargetID = occurrenceID,\n    surveyTargetValue = scientificName,\n    surveyTargetValueID = scientificNameID\n    ) %&gt;%\n  mutate(\n    surveyTargetType = \"taxon\",\n    includeOrExclude = \"Include\"\n    )\n\n\nsurvey_target_lifestage &lt;- occ %&gt;%\n  select(occurrenceID, sex, lifeStage) %&gt;%\n  rename(surveyTargetID = occurrenceID) %&gt;%\n  pivot_longer(\n    cols = c(sex, lifeStage),\n    names_to = \"surveyTargetType\", \n    values_to = \"surveyTargetValue\",\n    names_repair = \"minimal\"\n  ) %&gt;%\n  mutate(\n    includeOrExclude = \"Include\",\n    surveyTargetValueID = case_when(\n      surveyTargetType == \"sex\" & surveyTargetValue == \"female\" ~ \"http://vocab.nerc.ac.uk/collection/S10/current/S105/\",\n      surveyTargetType == \"sex\" & surveyTargetValue == \"male\" ~ \"http://vocab.nerc.ac.uk/collection/S10/current/S103/\",\n      surveyTargetType == \"sex\" & surveyTargetValue == \"indeterminate\" ~ \"http://vocab.nerc.ac.uk/collection/S10/current/S105/\",\n      surveyTargetType == \"lifeStage\" & surveyTargetValue == \"pup\" ~ \"http://vocab.nerc.ac.uk/collection/S11/current/S1157/\",\n      surveyTargetType == \"lifeStage\" & surveyTargetValue == \"juvenile\" ~ \"http://vocab.nerc.ac.uk/collection/S11/current/S1127/\",\n      surveyTargetType == \"lifeStage\" & surveyTargetValue == \"adult\" ~ \"http://vocab.nerc.ac.uk/collection/S11/current/S1116/\",\n      surveyTargetType == \"lifeStage\" & surveyTargetValue == \"unknown\" ~ \"http://vocab.nerc.ac.uk/collection/S11/current/S1152/\",\n      TRUE ~ NA_character_  # Handles cases where no match is found\n    )\n    ) \n\nsurvey_target &lt;- rbind(survey_target_taxa, survey_target_lifestage)\n\n\n\nSurvey-target-abundance table\n\nsurvey_target_abd &lt;- occ %&gt;%\n  select(occurrenceID, scientificName, scientificNameID, individualCount, sex, lifeStage) %&gt;%\n  rename(\n    observedTaxon = scientificName,\n    observedTaxonID = scientificNameID,\n    organismQuantity = individualCount,\n    surveyTargetID = occurrenceID\n    ) %&gt;%\n  mutate(\n    organismQuantityType = case_when(\n      organismQuantity &lt;= 1 ~ \"individual\",\n      organismQuantity &gt; 1 ~ \"individuals\"\n    )\n  )\n\n\n\nProtocol table\n\nprotocol &lt;- tibble(\n    protocolID = \"https://doi.org/10.1038/s41597-024-03744-9\",\n    protocolType = \"census\",\n    protocolName = \"CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island\",\n    protocolDescription = \"The Cape Shirreff Phocid Census (CS-PHOC, pronounced ‘Seasfolk’) surveys were conducted by INACH from 1997/98 to 2006/07. The U.S. AMLR Program resumed these surveys in 2009/10, and, except for 2020/21 when the field season was cancelled due to the COVID-19 pandemic, have continued surveys every season since through the time of publication. Most CS-PHOC survey windows (i.e., censuses) were only one day, meaning surveys of all locations were conducted on the same day. However, censuses occasionally spanned two or three days due to extenuating circumstances (e.g., weather). The INACH and U.S. AMLR programs both followed the same overall census protocol, where trained field biologists surveyed safely accessible regions of Cape Shirreff and recorded all live phocids. Biologists used field notebooks to record counts of each phocid species at each location, along with age class and sex when possible. Phocids were only recorded if they were hauled out on land, and not if they were for instance on an ice flow or swimming just offshore. After the survey, data were entered into a database or otherwise archived. Locations were surveyed on foot, by either walking through haul-out locations or using binoculars from a high vantage point where practical. While the full extent of the area surveyed varied slightly both across and within seasons, core census locations were always surveyed. These core census locations span the vast majority of phocid haul-out locations at Cape Shirreff, thereby ensuring that CS-PHOC data are both consistent and representative of phocid haul-out at Cape Shirreff across all censuses and seasons.\",\n    protocolCitation = \"Woodman, S.M., Borras-Chavez, R., Goebel, M.E. et al. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. Sci Data 11, 895 (2024). https://doi.org/10.1038/s41597-024-03744-9\"\n  )",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#save-data-frames-as-rda",
+    "href": "generate-dwcav2.html#save-data-frames-as-rda",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "Save data frames as rda",
+    "text": "Save data frames as rda\n\n# Helper function to create file paths for rda\nrda_file_path &lt;- function(filename) {\n  file.path(here(\"output\", \"rda\"), filename)\n}\nsave(event, file = rda_file_path(\"event.rda\"))\nsave(survey, file = rda_file_path(\"survey.rda\"))\nsave(survey_target, file = rda_file_path(\"survey_target.rda\"))\nsave(survey_target_abd, file = rda_file_path(\"survey_target_abundance.rda\"))\nsave(protocol, file = rda_file_path(\"protocol.rda\"))",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#write-files",
+    "href": "generate-dwcav2.html#write-files",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "Write files",
+    "text": "Write files\n\n# Helper function to create file paths for tsv files\ntsv_file_path &lt;- function(filename) {\n  file.path(here(\"output\", \"tsv\"), filename)\n}\n\nwrite_tsv(event, tsv_file_path(\"event.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(survey, tsv_file_path(\"survey.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(survey_target, tsv_file_path(\"survey_target.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(survey_target_abd, tsv_file_path(\"survey_target_abundance.txt\"), na = \"\", quote = \"none\")\nwrite_tsv(protocol, tsv_file_path(\"protocol.txt\"), na = \"\", quote = \"none\")",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "generate-dwcav2.html#references",
+    "href": "generate-dwcav2.html#references",
+    "title": "Mapping census dataset to DwCA v2",
+    "section": "References",
+    "text": "References\nWoodman, S.M., Borras-Chavez, R., Goebel, M.E., Torres, D., Aguayo, A., Krause, D.J. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. Sci Data 11, 895 (2024). https://doi.org/10.1038/s41597-024-03744-9",
+    "crumbs": [
+      "Home",
+      "Generate tables for DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "explore-dwcav2.html",
+    "href": "explore-dwcav2.html",
+    "title": "Exploring DwCA v2",
+    "section": "",
+    "text": "library(here)\nlibrary(tidyverse)\n\nload(here(\"output\", \"rda\", \"event.rda\"))\nload(here(\"output\", \"rda\", \"survey.rda\"))\nload(here(\"output\", \"rda\", \"survey_target.rda\"))\nload(here(\"output\", \"rda\", \"survey_target_abundance.rda\"))",
+    "crumbs": [
+      "Home",
+      "Explore DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "explore-dwcav2.html#connect-to-a-postgresql-database",
+    "href": "explore-dwcav2.html#connect-to-a-postgresql-database",
+    "title": "Exploring DwCA v2",
+    "section": "",
+    "text": "A local psql database was created based on the schema. Credentials are stored locally using .Renviron as explained in this Posit solutions page.\n\nlibrary(DBI)\n\n# Get PostgreSQL configuration from environment variables\ndbname &lt;- Sys.getenv(\"POSTGRES_DBNAME\")\nhost &lt;- Sys.getenv(\"POSTGRES_HOST\")\nport &lt;- as.integer(Sys.getenv(\"POSTGRES_PORT\"))\nuser &lt;- Sys.getenv(\"POSTGRES_USER\")\npassword &lt;- Sys.getenv(\"POSTGRES_PASSWORD\")\n\n# Connect to PostgreSQL\ncon &lt;- dbConnect(\n  RPostgres::Postgres(),\n  dbname = dbname,\n  host = host,\n  port = port,\n  user = user,\n  password = password\n)",
+    "crumbs": [
+      "Home",
+      "Explore DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "explore-dwcav2.html#import-data",
+    "href": "explore-dwcav2.html#import-data",
+    "title": "Exploring DwCA v2",
+    "section": "Import data",
+    "text": "Import data\nThe column names in psql are in snake_case but the corresponding column names in the R data frames are in lowerCamelCase. In order to transform the column names into snake_case to make importing easier, we will use the snakecase library.\n# library(snakecase)\n# \n# write_to_db &lt;- function(conn, df, table_name) {\n#   # Convert column names to snake_case\n#   colnames(df) &lt;- to_snake_case(colnames(df))\n#   \n#   # Get the list of columns from the PostgreSQL table\n#   db_columns &lt;- dbListFields(conn, table_name)\n#   \n#   # Filter the data frame to include only matching columns\n#   df_filtered &lt;- df[, colnames(df) %in% db_columns, drop = FALSE]\n#   \n#   # Write the filtered data frame to the PostgreSQL table\n#   dbWriteTable(\n#     conn = conn,\n#     name = table_name,\n#     value = df_filtered,\n#     append = TRUE,\n#     row.names = FALSE\n#   )\n#   \n#   message(\"Data successfully written to table: \", table_name)\n# }\n# \n# write_to_db(con, event, \"event\")\n# write_to_db(con, survey, \"survey\")\n# write_to_db(con, survey_target, \"survey_target\")\n# write_to_db(con, survey_target_abd_presence_only, \"survey_target_abundance\")\nunable to import protocol because\nERROR: duplicate key value violates unique constraint “protocol_pkey”\nDETAIL: Key (protocol_id)=(CS-PHOC-Census) already exists.\nCONTEXT: COPY protocol, line 2\n\n# # Define the query to fetch the required data\n# sql_query &lt;- \"\n# SELECT st.survey_id, st.survey_target_value, st.survey_target_id\n# FROM survey_target st\n# LEFT JOIN survey_target_abundance sta\n#   ON st.survey_target_id = sta.survey_target_id\n# WHERE sta.observed_taxon IS NULL\n# ORDER BY st.survey_id;\n# \n# \"\n# \n# # Execute the query and store the results in a data frame\n# result &lt;- dbGetQuery(con, query)\n# \n# # View the result\n# print(result)",
+    "crumbs": [
+      "Home",
+      "Explore DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "explore-dwcav2.html#load-data-frame",
+    "href": "explore-dwcav2.html#load-data-frame",
+    "title": "Exploring DwCA v2",
+    "section": "",
+    "text": "library(here)\nlibrary(tidyverse)\n\nload(here(\"output\", \"rda\", \"event.rda\"))\nload(here(\"output\", \"rda\", \"survey.rda\"))\nload(here(\"output\", \"rda\", \"survey_target.rda\"))\nload(here(\"output\", \"rda\", \"survey_target_abundance.rda\"))",
+    "crumbs": [
+      "Home",
+      "Explore DwCA_v2"
+    ]
+  },
+  {
+    "objectID": "explore-dwcav2.html#non-detection-data",
+    "href": "explore-dwcav2.html#non-detection-data",
+    "title": "Exploring DwCA v2",
+    "section": "Non-detection data",
+    "text": "Non-detection data\nIf only presence data is provided (not the case for this dataset), can we infer non-detection based on survey-target table and survey-target-abundance table?",
+    "crumbs": [
+      "Home",
+      "Explore DwCA_v2"
+    ]
+  }
+]
