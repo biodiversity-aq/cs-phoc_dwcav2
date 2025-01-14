@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yi-Ming Gan">
-<meta name="dcterms.date" content="2025-01-13">
+<meta name="dcterms.date" content="2025-01-14">
 
 <title>Mapping census dataset to DwCA v2 – cs-phoc_dwcav2</title>
 <style>
@@ -219,7 +219,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 13, 2025</p>
+      <p class="date">January 14, 2025</p>
     </div>
   </div>
   
@@ -266,7 +266,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">eventClass =</span> <span class="st">"Survey"</span>,</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">eventType =</span> <span class="st">"Survey"</span>, </span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">eventProtocolID =</span> <span class="st">"https://doi.org/10.1038/s41597-024-03744-9"</span> </span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>surveyed_pst)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="survey-table" class="level3">
@@ -297,7 +298,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_detect</span>(dynamicProperties, <span class="st">"USAMLR"</span>) <span class="sc">~</span> <span class="st">"USAMLR"</span>,</span>
 <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span>  <span class="co"># Default for unmatched cases</span></span>
 <span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>dynamicProperties)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="survey-target-table" class="level3">
@@ -320,92 +322,112 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">includeOrExclude =</span> <span class="st">"Include"</span></span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    )</span>
 <span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>survey_target_lifestage <span class="ot">&lt;-</span> occ <span class="sc">%&gt;%</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occurrenceID, sex, lifeStage) <span class="sc">%&gt;%</span></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">surveyTargetID =</span> occurrenceID) <span class="sc">%&gt;%</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">c</span>(sex, lifeStage),</span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"surveyTargetType"</span>, </span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"surveyTargetValue"</span>,</span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_repair =</span> <span class="st">"minimal"</span></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">includeOrExclude =</span> <span class="st">"Include"</span>,</span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">surveyTargetValueID =</span> <span class="fu">case_when</span>(</span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"sex"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"female"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S10/current/S105/"</span>,</span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"sex"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"male"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S10/current/S103/"</span>,</span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"sex"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"indeterminate"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S10/current/S105/"</span>,</span>
-<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"pup"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1157/"</span>,</span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"juvenile"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1127/"</span>,</span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"adult"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1116/"</span>,</span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"unknown"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1152/"</span>,</span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span>  <span class="co"># Handles cases where no match is found</span></span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    ) </span>
-<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>survey_target <span class="ot">&lt;-</span> <span class="fu">rbind</span>(survey_target_taxa, survey_target_lifestage)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>survey_target_lifestage <span class="ot">&lt;-</span> occ <span class="sc">%&gt;%</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occurrenceID, sex, lifeStage) <span class="sc">%&gt;%</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">surveyTargetID =</span> occurrenceID) <span class="sc">%&gt;%</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">c</span>(sex, lifeStage),</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"surveyTargetType"</span>, </span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"surveyTargetValue"</span>,</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_repair =</span> <span class="st">"minimal"</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">includeOrExclude =</span> <span class="st">"Include"</span>,</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">surveyTargetValueID =</span> <span class="fu">case_when</span>(</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"sex"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"female"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S10/current/S105/"</span>,</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"sex"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"male"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S10/current/S103/"</span>,</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"sex"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"indeterminate"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S10/current/S105/"</span>,</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"pup"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1157/"</span>,</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"juvenile"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1127/"</span>,</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"adult"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1116/"</span>,</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>      surveyTargetType <span class="sc">==</span> <span class="st">"lifeStage"</span> <span class="sc">&amp;</span> surveyTargetValue <span class="sc">==</span> <span class="st">"unknown"</span> <span class="sc">~</span> <span class="st">"http://vocab.nerc.ac.uk/collection/S11/current/S1152/"</span>,</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span>  <span class="co"># Handles cases where no match is found</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    ) </span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>survey_target <span class="ot">&lt;-</span> <span class="fu">rbind</span>(survey_target_taxa, survey_target_lifestage)</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="co"># one survey target has taxon, sex and life stage, this include unknown sex and life stage</span></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>survey_target <span class="sc">%&gt;%</span> <span class="fu">filter</span>(surveyTargetID <span class="sc">==</span> <span class="st">"1-1-231413-4-3"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 5
+  surveyTargetID surveyTargetValue surveyTargetValueID          surveyTargetType
+  &lt;chr&gt;          &lt;chr&gt;             &lt;chr&gt;                        &lt;chr&gt;           
+1 1-1-231413-4-3 Mirounga leonina  urn:lsid:marinespecies.org:… taxon           
+2 1-1-231413-4-3 indeterminate     http://vocab.nerc.ac.uk/col… sex             
+3 1-1-231413-4-3 unknown           http://vocab.nerc.ac.uk/col… lifeStage       
+# ℹ 1 more variable: includeOrExclude &lt;chr&gt;</code></pre>
+</div>
 </div>
 </section>
 <section id="survey-target-abundance-table" class="level3">
 <h3 class="anchored" data-anchor-id="survey-target-abundance-table">Survey-target-abundance table</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>survey_target_abd <span class="ot">&lt;-</span> occ <span class="sc">%&gt;%</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occurrenceID, scientificName, scientificNameID, individualCount, sex, lifeStage) <span class="sc">%&gt;%</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">observedTaxon =</span> scientificName,</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">observedTaxonID =</span> scientificNameID,</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">organismQuantity =</span> individualCount,</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">surveyTargetID =</span> occurrenceID</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">%&gt;%</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">organismQuantityType =</span> <span class="fu">case_when</span>(</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>      organismQuantity <span class="sc">&lt;=</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"individual"</span>,</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>      organismQuantity <span class="sc">&gt;</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"individuals"</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>survey_target_abd <span class="ot">&lt;-</span> occ <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(occurrenceID, scientificName, scientificNameID, individualCount) <span class="sc">%&gt;%</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">observedTaxon =</span> scientificName,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">observedTaxonID =</span> scientificNameID,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">organismQuantity =</span> individualCount,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">surveyTargetID =</span> occurrenceID</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">organismQuantityType =</span> <span class="fu">case_when</span>(</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>      organismQuantity <span class="sc">&lt;=</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"individual"</span>,</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>      organismQuantity <span class="sc">&gt;</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"individuals"</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  ) </span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>survey_target_abd <span class="sc">%&gt;%</span> <span class="fu">filter</span>(surveyTargetID <span class="sc">==</span> <span class="st">"1-1-231413-4-3"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 5
+  surveyTargetID observedTaxon    observedTaxonID               organismQuantity
+  &lt;chr&gt;          &lt;chr&gt;            &lt;chr&gt;                                    &lt;dbl&gt;
+1 1-1-231413-4-3 Mirounga leonina urn:lsid:marinespecies.org:t…                0
+# ℹ 1 more variable: organismQuantityType &lt;chr&gt;</code></pre>
+</div>
 </div>
 </section>
 <section id="protocol-table" class="level3">
 <h3 class="anchored" data-anchor-id="protocol-table">Protocol table</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>protocol <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolID =</span> <span class="st">"https://doi.org/10.1038/s41597-024-03744-9"</span>,</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolType =</span> <span class="st">"census"</span>,</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolName =</span> <span class="st">"CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island"</span>,</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolDescription =</span> <span class="st">"The Cape Shirreff Phocid Census (CS-PHOC, pronounced ‘Seasfolk’) surveys were conducted by INACH from 1997/98 to 2006/07. The U.S. AMLR Program resumed these surveys in 2009/10, and, except for 2020/21 when the field season was cancelled due to the COVID-19 pandemic, have continued surveys every season since through the time of publication. Most CS-PHOC survey windows (i.e., censuses) were only one day, meaning surveys of all locations were conducted on the same day. However, censuses occasionally spanned two or three days due to extenuating circumstances (e.g., weather). The INACH and U.S. AMLR programs both followed the same overall census protocol, where trained field biologists surveyed safely accessible regions of Cape Shirreff and recorded all live phocids. Biologists used field notebooks to record counts of each phocid species at each location, along with age class and sex when possible. Phocids were only recorded if they were hauled out on land, and not if they were for instance on an ice flow or swimming just offshore. After the survey, data were entered into a database or otherwise archived. Locations were surveyed on foot, by either walking through haul-out locations or using binoculars from a high vantage point where practical. While the full extent of the area surveyed varied slightly both across and within seasons, core census locations were always surveyed. These core census locations span the vast majority of phocid haul-out locations at Cape Shirreff, thereby ensuring that CS-PHOC data are both consistent and representative of phocid haul-out at Cape Shirreff across all censuses and seasons."</span>,</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolCitation =</span> <span class="st">"Woodman, S.M., Borras-Chavez, R., Goebel, M.E. et al. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. Sci Data 11, 895 (2024). https://doi.org/10.1038/s41597-024-03744-9"</span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>protocol <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolID =</span> <span class="st">"https://doi.org/10.1038/s41597-024-03744-9"</span>,</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolType =</span> <span class="st">"census"</span>,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolName =</span> <span class="st">"CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island"</span>,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolDescription =</span> <span class="st">"The Cape Shirreff Phocid Census (CS-PHOC, pronounced ‘Seasfolk’) surveys were conducted by INACH from 1997/98 to 2006/07. The U.S. AMLR Program resumed these surveys in 2009/10, and, except for 2020/21 when the field season was cancelled due to the COVID-19 pandemic, have continued surveys every season since through the time of publication. Most CS-PHOC survey windows (i.e., censuses) were only one day, meaning surveys of all locations were conducted on the same day. However, censuses occasionally spanned two or three days due to extenuating circumstances (e.g., weather). The INACH and U.S. AMLR programs both followed the same overall census protocol, where trained field biologists surveyed safely accessible regions of Cape Shirreff and recorded all live phocids. Biologists used field notebooks to record counts of each phocid species at each location, along with age class and sex when possible. Phocids were only recorded if they were hauled out on land, and not if they were for instance on an ice flow or swimming just offshore. After the survey, data were entered into a database or otherwise archived. Locations were surveyed on foot, by either walking through haul-out locations or using binoculars from a high vantage point where practical. While the full extent of the area surveyed varied slightly both across and within seasons, core census locations were always surveyed. These core census locations span the vast majority of phocid haul-out locations at Cape Shirreff, thereby ensuring that CS-PHOC data are both consistent and representative of phocid haul-out at Cape Shirreff across all censuses and seasons."</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">protocolCitation =</span> <span class="st">"Woodman, S.M., Borras-Chavez, R., Goebel, M.E. et al. CS-PHOC: weekly census counts of Southern Ocean phocids at Cape Shirreff, Livingston Island. Sci Data 11, 895 (2024). https://doi.org/10.1038/s41597-024-03744-9"</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
 <section id="save-data-frames-as-rda" class="level2">
 <h2 class="anchored" data-anchor-id="save-data-frames-as-rda">Save data frames as rda</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Helper function to create file paths for rda</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>rda_file_path <span class="ot">&lt;-</span> <span class="cf">function</span>(filename) {</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">file.path</span>(<span class="fu">here</span>(<span class="st">"output"</span>, <span class="st">"rda"</span>), filename)</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(event, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"event.rda"</span>))</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(survey, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"survey.rda"</span>))</span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(survey_target, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"survey_target.rda"</span>))</span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(survey_target_abd, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"survey_target_abundance.rda"</span>))</span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(protocol, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"protocol.rda"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Helper function to create file paths for rda</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>rda_file_path <span class="ot">&lt;-</span> <span class="cf">function</span>(filename) {</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">file.path</span>(<span class="fu">here</span>(<span class="st">"output"</span>, <span class="st">"rda"</span>), filename)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(event, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"event.rda"</span>))</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(survey, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"survey.rda"</span>))</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(survey_target, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"survey_target.rda"</span>))</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(survey_target_abd, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"survey_target_abundance.rda"</span>))</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="fu">save</span>(protocol, <span class="at">file =</span> <span class="fu">rda_file_path</span>(<span class="st">"protocol.rda"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="write-files" class="level2">
 <h2 class="anchored" data-anchor-id="write-files">Write files</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Helper function to create file paths for tsv files</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>tsv_file_path <span class="ot">&lt;-</span> <span class="cf">function</span>(filename) {</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">file.path</span>(<span class="fu">here</span>(<span class="st">"output"</span>, <span class="st">"tsv"</span>), filename)</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(event, <span class="fu">tsv_file_path</span>(<span class="st">"event.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(survey, <span class="fu">tsv_file_path</span>(<span class="st">"survey.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(survey_target, <span class="fu">tsv_file_path</span>(<span class="st">"survey_target.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(survey_target_abd, <span class="fu">tsv_file_path</span>(<span class="st">"survey_target_abundance.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(protocol, <span class="fu">tsv_file_path</span>(<span class="st">"protocol.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Helper function to create file paths for tsv files</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>tsv_file_path <span class="ot">&lt;-</span> <span class="cf">function</span>(filename) {</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">file.path</span>(<span class="fu">here</span>(<span class="st">"output"</span>, <span class="st">"tsv"</span>), filename)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(event, <span class="fu">tsv_file_path</span>(<span class="st">"event.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(survey, <span class="fu">tsv_file_path</span>(<span class="st">"survey.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(survey_target, <span class="fu">tsv_file_path</span>(<span class="st">"survey_target.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(survey_target_abd, <span class="fu">tsv_file_path</span>(<span class="st">"survey_target_abundance.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="fu">write_tsv</span>(protocol, <span class="fu">tsv_file_path</span>(<span class="st">"protocol.txt"</span>), <span class="at">na =</span> <span class="st">""</span>, <span class="at">quote =</span> <span class="st">"none"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="references" class="level2">

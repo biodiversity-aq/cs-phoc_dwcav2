@@ -1,484 +1,484 @@
-surveyID	eventDurationValue	eventDurationUnit	dynamicProperties	taxonCompletenessReported	isTaxonomicScopeFullyReported	targetHabitatScope	excludedTargetHabitatScope	isAbsenceReported	hasNonTargetTaxa	isAbundanceReported	isLeastSpecificTargetCategoryQuantityInclusive	hasMaterialSamples	samplingEffortProtocolID	samplingPerformedBy
-185-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-186-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-187-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-188-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-189-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-190-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-191-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-192-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-193-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-194-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-195-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-196-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-197-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-198-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-199-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-200-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-201-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-202-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-203-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-204-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-205-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-206-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-207-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-208-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-209-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-210-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-211-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-212-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-213-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-214-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-215-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-216-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-217-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-218-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-219-1	2	days	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-220-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-221-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-222-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-223-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-224-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-225-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-226-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-227-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-228-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-229-1	2	days	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-230-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-231-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-232-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-233-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-234-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-235-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-236-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-237-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-238-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-239-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-240-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-241-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-242-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-243-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-244-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-245-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-246-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-247-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-248-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-249-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-250-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-251-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-252-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-253-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-254-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-255-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-256-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-257-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-258-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-259-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-260-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-261-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-262-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-263-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-264-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-265-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-266-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-267-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-268-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-269-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-270-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-271-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-272-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-273-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-274-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-275-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-276-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-277-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-278-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-279-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-280-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-281-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-282-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-283-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-284-1	1	day	{""""research_program"""": """"INACH""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
-149-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-149-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-150-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-150-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-151-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-151-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-152-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-152-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-153-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-153-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-154-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-154-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-155-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-155-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-156-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-156-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-157-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-157-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-158-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-158-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-159-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-159-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-160-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-160-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-161-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-161-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-162-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-162-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-163-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-163-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-164-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-164-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-165-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-165-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-166-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-166-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-167-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-167-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-168-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-168-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-169-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-169-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-170-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-171-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-172-1	3	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-172-2	3	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-173-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-173-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-174-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-2-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-2-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-3-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-3-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-4-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-4-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-5-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-5-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-6-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-6-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-7-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-7-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-8-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-8-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-9-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-10-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-10-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-11-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-11-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-12-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-12-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-13-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-14-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-14-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-15-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-15-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-16-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-16-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-17-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-17-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-18-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-18-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-19-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-19-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-20-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-20-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-21-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-21-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-22-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-22-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-23-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-23-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-24-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-24-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-25-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-25-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-26-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-26-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-27-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-27-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-28-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-28-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-29-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-29-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-30-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-30-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-31-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-31-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-32-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-32-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-33-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-33-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-34-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-34-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-35-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-35-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-36-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-36-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-37-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-37-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-38-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-38-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-39-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-39-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-40-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-40-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-41-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-41-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-42-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-42-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-43-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-43-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-44-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-44-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-45-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-45-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-46-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-46-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-47-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-47-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-48-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-48-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-49-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-49-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-50-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-50-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-51-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-51-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-52-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-52-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-53-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-53-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-54-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-54-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-55-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-55-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-56-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-56-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-57-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-57-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-58-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-58-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-59-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-59-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-60-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-60-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-61-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-61-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-62-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-62-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-63-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-63-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-64-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-64-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-65-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-65-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-66-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-66-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-67-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-67-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-68-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-68-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-69-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-69-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-70-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-70-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-71-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-71-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-72-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-72-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-73-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-73-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-74-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-74-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-75-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-75-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-76-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-76-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-77-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-77-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-78-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-78-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-79-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-79-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-80-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-80-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-81-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-81-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-82-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-82-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-83-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-83-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-84-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-84-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-85-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-85-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-86-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-86-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-87-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-87-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-88-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-88-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-89-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-89-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-90-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-90-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-91-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-91-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-92-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-92-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-93-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-93-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-94-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-94-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-95-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-95-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-96-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-96-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-97-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-97-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-98-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-98-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-99-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-99-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-100-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-100-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-101-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-101-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-102-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-102-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-103-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-103-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-104-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-104-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-105-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-105-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-106-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-106-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-107-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-107-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-108-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-108-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-109-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-109-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-110-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-110-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-111-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-111-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-112-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-112-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-113-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-113-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-114-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-114-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-115-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-115-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-116-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-116-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-117-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-117-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-118-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-118-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-119-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-119-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-120-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-120-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-121-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-122-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-122-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-123-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-123-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-124-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-124-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-125-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-125-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-126-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-126-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-127-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-127-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-128-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-128-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-129-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-129-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-130-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-130-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-131-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-131-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-132-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-132-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-133-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-134-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-134-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-135-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-135-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-136-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-136-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-137-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-137-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-138-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-138-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-139-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-139-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-140-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-140-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-141-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-141-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-142-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-142-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-143-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-143-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-144-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-144-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-145-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-145-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-146-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-146-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-147-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-147-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-148-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-148-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-175-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-175-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-176-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-176-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-177-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-177-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-178-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-178-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-179-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-179-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-180-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-180-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-181-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-181-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-182-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-182-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-183-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-183-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-184-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-184-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-285-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-285-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-287-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-287-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-288-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-288-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1288-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1288-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1289-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1289-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1290-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1290-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1291-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1291-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1292-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1292-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1293-1	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1293-2	2	days	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1294-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1294-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1295-1	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
-1295-2	1	day	{""""research_program"""": """"USAMLR""""}	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+surveyID	eventDurationValue	eventDurationUnit	taxonCompletenessReported	isTaxonomicScopeFullyReported	targetHabitatScope	excludedTargetHabitatScope	isAbsenceReported	hasNonTargetTaxa	isAbundanceReported	isLeastSpecificTargetCategoryQuantityInclusive	hasMaterialSamples	samplingEffortProtocolID	samplingPerformedBy
+185-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+186-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+187-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+188-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+189-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+190-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+191-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+192-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+193-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+194-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+195-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+196-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+197-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+198-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+199-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+200-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+201-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+202-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+203-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+204-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+205-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+206-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+207-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+208-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+209-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+210-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+211-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+212-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+213-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+214-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+215-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+216-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+217-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+218-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+219-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+220-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+221-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+222-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+223-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+224-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+225-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+226-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+227-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+228-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+229-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+230-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+231-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+232-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+233-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+234-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+235-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+236-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+237-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+238-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+239-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+240-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+241-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+242-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+243-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+244-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+245-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+246-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+247-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+248-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+249-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+250-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+251-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+252-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+253-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+254-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+255-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+256-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+257-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+258-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+259-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+260-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+261-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+262-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+263-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+264-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+265-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+266-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+267-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+268-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+269-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+270-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+271-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+272-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+273-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+274-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+275-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+276-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+277-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+278-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+279-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+280-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+281-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+282-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+283-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+284-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	INACH
+149-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+149-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+150-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+150-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+151-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+151-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+152-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+152-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+153-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+153-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+154-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+154-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+155-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+155-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+156-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+156-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+157-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+157-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+158-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+158-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+159-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+159-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+160-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+160-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+161-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+161-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+162-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+162-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+163-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+163-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+164-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+164-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+165-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+165-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+166-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+166-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+167-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+167-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+168-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+168-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+169-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+169-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+170-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+171-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+172-1	3	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+172-2	3	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+173-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+173-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+174-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+2-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+2-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+3-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+3-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+4-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+4-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+5-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+5-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+6-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+6-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+7-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+7-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+8-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+8-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+9-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+10-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+10-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+11-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+11-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+12-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+12-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+13-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+14-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+14-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+15-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+15-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+16-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+16-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+17-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+17-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+18-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+18-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+19-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+19-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+20-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+20-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+21-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+21-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+22-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+22-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+23-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+23-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+24-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+24-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+25-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+25-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+26-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+26-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+27-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+27-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+28-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+28-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+29-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+29-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+30-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+30-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+31-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+31-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+32-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+32-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+33-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+33-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+34-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+34-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+35-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+35-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+36-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+36-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+37-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+37-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+38-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+38-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+39-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+39-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+40-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+40-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+41-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+41-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+42-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+42-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+43-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+43-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+44-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+44-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+45-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+45-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+46-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+46-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+47-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+47-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+48-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+48-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+49-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+49-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+50-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+50-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+51-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+51-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+52-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+52-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+53-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+53-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+54-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+54-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+55-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+55-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+56-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+56-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+57-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+57-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+58-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+58-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+59-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+59-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+60-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+60-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+61-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+61-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+62-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+62-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+63-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+63-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+64-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+64-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+65-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+65-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+66-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+66-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+67-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+67-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+68-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+68-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+69-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+69-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+70-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+70-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+71-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+71-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+72-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+72-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+73-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+73-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+74-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+74-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+75-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+75-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+76-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+76-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+77-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+77-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+78-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+78-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+79-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+79-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+80-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+80-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+81-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+81-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+82-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+82-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+83-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+83-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+84-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+84-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+85-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+85-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+86-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+86-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+87-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+87-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+88-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+88-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+89-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+89-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+90-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+90-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+91-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+91-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+92-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+92-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+93-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+93-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+94-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+94-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+95-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+95-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+96-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+96-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+97-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+97-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+98-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+98-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+99-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+99-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+100-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+100-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+101-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+101-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+102-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+102-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+103-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+103-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+104-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+104-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+105-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+105-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+106-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+106-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+107-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+107-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+108-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+108-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+109-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+109-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+110-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+110-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+111-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+111-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+112-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+112-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+113-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+113-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+114-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+114-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+115-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+115-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+116-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+116-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+117-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+117-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+118-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+118-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+119-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+119-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+120-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+120-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+121-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+122-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+122-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+123-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+123-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+124-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+124-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+125-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+125-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+126-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+126-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+127-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+127-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+128-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+128-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+129-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+129-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+130-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+130-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+131-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+131-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+132-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+132-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+133-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+134-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+134-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+135-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+135-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+136-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+136-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+137-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+137-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+138-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+138-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+139-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+139-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+140-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+140-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+141-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+141-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+142-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+142-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+143-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+143-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+144-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+144-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+145-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+145-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+146-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+146-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+147-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+147-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+148-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+148-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+175-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+175-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+176-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+176-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+177-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+177-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+178-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+178-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+179-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+179-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+180-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+180-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+181-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+181-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+182-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+182-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+183-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+183-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+184-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+184-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+285-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+285-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+287-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+287-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+288-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+288-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1288-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1288-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1289-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1289-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1290-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1290-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1291-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1291-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1292-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1292-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1293-1	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1293-2	2	days	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1294-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1294-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1295-1	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR
+1295-2	1	day	notReported	true	phocids hauled-out location on land	ice, offshore, water	true	false	true	false	false	https://doi.org/10.1038/s41597-024-03744-9	USAMLR

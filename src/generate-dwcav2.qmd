@@ -49,7 +49,8 @@ event <- event_dwc %>%
     eventClass = "Survey",
     eventType = "Survey", 
     eventProtocolID = "https://doi.org/10.1038/s41597-024-03744-9" 
-  ) 
+  ) %>%
+  select(-surveyed_pst)
 ```
 
 ### Survey table
@@ -81,7 +82,8 @@ survey <- event %>%
       str_detect(dynamicProperties, "USAMLR") ~ "USAMLR",
       TRUE ~ NA_character_  # Default for unmatched cases
     )
-  ) 
+  ) %>%
+  select(-dynamicProperties)
 ```
 
 ### Survey-target table
@@ -104,7 +106,6 @@ survey_target_taxa <- occ %>%
     surveyTargetType = "taxon",
     includeOrExclude = "Include"
     )
-
 
 survey_target_lifestage <- occ %>%
   select(occurrenceID, sex, lifeStage) %>%
@@ -130,13 +131,16 @@ survey_target_lifestage <- occ %>%
     ) 
 
 survey_target <- rbind(survey_target_taxa, survey_target_lifestage)
+
+# one survey target has taxon, sex and life stage, this include unknown sex and life stage
+survey_target %>% filter(surveyTargetID == "1-1-231413-4-3")
 ```
 
 ### Survey-target-abundance table
 
 ```{r survey-target-abundance}
 survey_target_abd <- occ %>%
-  select(occurrenceID, scientificName, scientificNameID, individualCount, sex, lifeStage) %>%
+  select(occurrenceID, scientificName, scientificNameID, individualCount) %>%
   rename(
     observedTaxon = scientificName,
     observedTaxonID = scientificNameID,
@@ -148,7 +152,9 @@ survey_target_abd <- occ %>%
       organismQuantity <= 1 ~ "individual",
       organismQuantity > 1 ~ "individuals"
     )
-  )
+  ) 
+
+survey_target_abd %>% filter(surveyTargetID == "1-1-231413-4-3")
 ```
 
 ### Protocol table
