@@ -19,7 +19,7 @@ website:
       - href: index.qmd
         text: Home
       - icon: github
-        href: https://github.com/ymgan/cs-phoc_dwcav2
+        href: https://github.com/biodiversity-aq/cs-phoc_dwcav2
   page-navigation: true
   sidebar: 
     style: "docked"

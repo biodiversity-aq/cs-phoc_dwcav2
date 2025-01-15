@@ -18,13 +18,9 @@ This mapping exercise is part of ADVANCE project that is funded by BELSPO (BELSP
 We are grateful and appreciate the various contributions received from the following contributors during this exercise:
 
 -   John Wieczorek
-
 -   Anton Van de Putte
-
 -   Cecilie Svenningsen
-
 -   Kate Ingenloff
-
 -   Tim Robertson
 
 ## References
